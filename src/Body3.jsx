@@ -93,7 +93,7 @@ export default function Body3() {
   };
 
   return (
-    <div style={{ width: "70%", margin: "30px auto",color:"black" }}>
+    <div className="os" style={{  }}>
 
         <h5 style={{color:"#AF47C2",fontSize:"1.5rem",marginTop:"6rem",fontFamily:"Montserrat"}}> Our Services</h5>
 

@@ -24,7 +24,7 @@ html {
 
 header{
     justify-content: space-around;
-     padding: 0 1rem;
+     padding: 0 0rem;
 }
 
 
@@ -200,14 +200,22 @@ footer{
   display: none;
   font-size: 25px;
   cursor: pointer;
+  margin-right: 1rem;
 }
+
+.os {
+  width: 70%;
+  margin: 30px auto;
+  color: black;
+}
+
 
  @media (max-width: 1200px) {
  img {
     max-width:100%;
   }
 } 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     img{
       width: 15rem;
       height: auto;
@@ -245,7 +253,7 @@ footer{
  
  } 
 
-  @media (max-width:500px){
+  @media (max-width:600px){
 
 
     .hamburger {
@@ -257,14 +265,14 @@ footer{
     width: 20rem;
     height: auto;
     margin: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
     .nav {
     display: none;    
     position: absolute;            
     top: 5rem;
-    right: 0rem;
+    right: 1rem;
     background: white;
     flex-direction: column;
     padding: 1rem 3.5rem;
@@ -284,12 +292,13 @@ footer{
   }
 
   .h1{
-    font-size: 26px;
-    margin-top: rem;
+    font-size: 36px;
+     padding: 0rem  1rem;
   }
   .h3{
     font-size: 16.5px;
     margin-top: 3rem;
+    padding: 0rem 1rem;
   }
   .para{
     font-size: 14px;
@@ -297,7 +306,7 @@ footer{
   }
 
   .blue{
-    width: 27rem;
+    width: 25rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -308,9 +317,7 @@ footer{
   .but{
     font-size: 14px;
     padding: 0.5rem 0.8rem;
-    position: absolute;
-    top: 68%;
-    left: 37%;
+    margin: 0px;
   }
   .imgs{
     width: 90px;
@@ -322,7 +329,7 @@ footer{
     margin-bottom: 120px;
   }
   .picp{
-    margin: 3rem;
+    margin: rem;
     align-items: center;
   }
 
@@ -374,6 +381,21 @@ footer{
 
   .p{
     font-size: 13px;
+  }
+  .stopqp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .nfds{
+    font-size: 8px;
+  }
+  .os{
+    margin: 0px auto;
+    
+  
   }
  } 
 
