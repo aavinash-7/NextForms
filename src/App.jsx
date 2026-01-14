@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Header from '/Header.jsx'
+import Headerr from '/Headerr.jsx'
 import './App.css'
 import Display1 from './Display1'
 import Body2 from './Body2'
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-     <Header />
+     <Headerr />
      <Display1  />
      <Body2 />
      <Body4 />

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-function Header() {
+function Headerr() {
 
   const [open, setOpen] = useState(false);
 
@@ -47,4 +47,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Headerr;
