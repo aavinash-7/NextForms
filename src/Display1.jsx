@@ -12,7 +12,7 @@ return(
     
     justifyContent:"space-between"}}>
       
-      <div  className='blue' style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}> 
+      <div  className='blue' >  
         <div className='stopqp' style={{}}>
         <div className='stopQ' style={{}}>
         <h1 className='h1'>Stop the Queue. Start the Career.</h1>

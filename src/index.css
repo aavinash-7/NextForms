@@ -1,296 +1,104 @@
-:root {
-  font-family:opensans;
-  line-height: 1.5;
-  font-weight: 400;
-  background-color: #ffffff;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-html {
-  scroll-behavior: smooth;
+/* ================= RESET & SAFETY ================= */
+* {
+  box-sizing: border-box;
 }
 
-header{
-    justify-content: space-around;
-     padding: 0 0rem;
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Open Sans, sans-serif;
 }
 
-
-nav li:hover {
-  border-bottom: 3px solid #AF47C2;
- 
-}
-
-.blue{
-  
-  text-align: center;
-  display: flex;
-  align-items: center;
-  background: #0066FF;
-  border-radius: 20px;
-  color: white;
-  padding: 2rem;
+/* ================= ROOT ================= */
+#root {
+  width: 70%;
   margin: 0 auto;
-  height: fit-content;
-}
-.stopqp{
-  display: flex;
-
-  align-items: center;
 }
 
-
-.but{
-   margin-top: 2rem;
-  padding: 0.8rem 1rem;
-  font-size: 18px;
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.wc {
-  max-width: 300px;
-  padding: 1rem;
-  border-radius: 10px;
-  margin: 1rem;
-  background: white;
- 
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
-}
-
-
-img{
+/* ================= GLOBAL ================= */
+img {
   width: 100%;
   max-width: 27rem;
   height: auto;
   display: block;
   margin: 0 auto;
-  /* margin-left:4rem; */
-  transition: filter .5s;
-  border-radius: 20px ;
-}
-.fa-whatsapp{
-  color:green;
-  font-size: 20px;
-  margin-left: 5px;
-}
-.fa-lock{
-  color:#435D9C;
-  font-size: 20px;
-  margin-right: 8px;
-}
-.fa-person{
-  color:teal;
-  font-size: 20px;
-  margin-right: 8px;
-}
-/* button{
-   background: #28a745;
-   color: white;
-   border: none;
-   padding: 10px 20px;
-   font-size: 16px;
-   border-radius: 5px;
-   cursor: pointer;
-   transition: background 0.3s ease;
-} */
-button:hover{
-   background: greenyellow;
+  border-radius: 20px;
 }
 
-a{
-  text-decoration: none;
-  color: black
-  
-}
-.fa-circle-check{
-  color:green;
-  font-size: 22px;
-  margin-right: 8px;
+.blue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0066FF;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
 }
 
-.imgs{
- width: 10rem;
- height: 10rem;
- border-radius: 50%;
- border: 1.2px solid #cccc;
- margin: 0px;
+.stopqp {
+  display: flex;
+  align-items: center;
+}
+
+.hiw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .line {
-  margin-bottom:116px;              
-  width: 180px;           
+  width: 180px;
   height: 2px;
   background: #ccc;
-  
 }
 
-.hover:hover{
-  color: blue;
-  cursor: pointer;
-}
-
-.pic{
-  width:10rem;
-  align-items: center;
-}
-
-.ls{
-  font-size: 20px;
-  color: #001F3F;
-  padding: 20px;
-  border-bottom: 1px solid black;
-}
-
-.sslp{
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 0.5rem;
-
-}
-
-footer{
-  padding:"1rem"
-}
-
-.nav{
-    display: flex;
-  gap: 30px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.ul{
-  list-style: none;
-  display: flex;         
-  gap: 30px;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  align-items: center;
-}
-
-#contact{
-  color: black;
-  margin: 1rem;
-  margin-bottom: 0;
+.picp {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  background-color: #F2F2F2;
-  text-align: center;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+  align-items: center;
 }
 
+#contact {
+  width: 100%;
+}
+
+/* ================= NAV ================= */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
 
 .hamburger {
   display: none;
   font-size: 25px;
   cursor: pointer;
-  margin-right: 1rem;
 }
 
-.os {
-  width: 70%;
-  margin: 30px auto;
-  color: black;
-}
+/* ================= MOBILE ONLY ================= */
+@media (max-width: 600px) {
 
-
-
-  /* @media (min-width: 1200px) {
- img {
-    max-width:100%;
-  }
-}   */
-  @media (max-width: 960px) {
-    img{
-      width: 15rem;
-      height: auto;
-      margin: 1rem;
-     
-      
-    }
-
-    footer{
-      padding: 2rem;
-    }
-    .body{
-      padding:50px;
-    }
-
-    .h1{
-      font-size: 26px;
-  margin-top: 1rem;
-      
- 
-    }
-    .h3{
-      font-size: 17px;
-      margin-top: 3rem;
-    }
-    .para{
-      font-size: 14px;
-      margin-top: 1rem;
-    }
-
-    .but{
-      font-size: 18px;
-      padding: 0.5rem 0.8rem;
-    }
-    .stopqp{
-      
-      align-items: center;
-    }
- .blue{
-  padding: 1rem;
-  
-  
- }
- } 
- body{
-  width: 90%;
- }
-
-  /* @media (max-width:600px){
-
-    body{
-      width: 100%;
-    }
-    .hamburger {
-      display: block;
-
-    }
-
-  img{
+  #root {
     width: 100%;
-    height: auto;
-    max-width: 18rem;
-    margin: 1rem auto;
-   
   }
 
-    .nav {
-    display: none;    
-    position: absolute;            
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
     top: 5rem;
     right: 1rem;
     background: white;
@@ -298,183 +106,47 @@ footer{
     padding: 1rem 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    
   }
 
-   .nav.open {
-    display: flex;                
+  .nav.open {
+    display: flex;
   }
 
   .ul {
-    flex-direction: column;      
+    flex-direction: column;
     gap: 1rem;
-    font-size: 18px;
   }
 
-  .h1{
+  .blue {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 14px;
+  }
+
+  img {
+    max-width: 18rem;
+    margin: 1rem auto;
+  }
+
+  .h1 {
     font-size: 24px;
     line-height: 1.3;
   }
-  .h3{
-    font-size: 16.5px;
-    margin-top: 3rem;
-    padding: 0rem 1rem;
-  }
-  .para{
-    font-size: 14px;
-    margin-top: 1rem;
+
+  /* HOW IT WORKS FIX (THIS WAS THE REAL BUG) */
+  .hiw {
+    flex-direction: column;
+    gap: 2rem;
   }
 
-  .blue{
+  .line {
+    width: 2px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  .why {
     width: 100%;
-     max-width:none;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #000;
-
+    text-align: center;
   }
-
-  .but{
-    font-size: 14px;
-    padding: 0.5rem 0.8rem;
-    margin: 0px;
-  }
-  .imgs{
-    width: 90px;
-    height: 90px;
-  }
-  .line{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    width: 100%;
-    max-width: 11rem;
-    
-  }
-  .picp{
-    // margin: rem;
-    // align-items: center; 
-    margin:0px auto;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  // .hiw{
-   // width: 90%;
-  //} 
-
-  .con{
-    font-size: 16px;
-  }
-  .pcon{
-    font-size: 12px;
-  }
-  .imh3{
-    margin-bottom: 15px;
-  }
-
-  .title{
-    font-size: 15px;
-  }
-  .list{
-    font-size: 12px;
-  }
-  .ls{
-    font-size: 15px;
-  }
-  .ssl{
-    font-size: 13px;
-  }
-  .sslp{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .nf{
-    font-size: 13px;
-  }
-
-  .ai{
-    font-size: 12px;
-  }
-
-  .num{
-    font-size: 12px;
-  }
-
-  footer{
-    margin: 0px;
-    padding:0px 2rem;
-  }
-  .why{
-    font-size: 1.2rem;
-    
-  }
-
-  .p{
-    font-size: 13px;
-  }
-  .stopqp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-  }
-
-  .nfds{
-    font-size: 8px;
-  }
-  .os{
-    margin: 0px auto;
-    
-  
-  }
-     #contact{
-      width: 90%;
-      margin: 0px auto;
-      padding: 0rem;
-    }
-  } */
-
-
-   @media (max-width:600px){
-     .hiw{
-  flex-direction: column;
-  gap: 2rem;
 }
-
-.line{
-  width: 2px;
-  height: 40px;
-  background: #ccc;
-  margin: 0 auto;
-}
-
-.picp,
-#contact{
-  width: 100%;
-}
-
-.blue{
-  background: #0066FF;
-}
-
-.why{
-  width: 100%;
-  text-align: center;
-}
-   }
-
-
-
-
-
-
-
-
-

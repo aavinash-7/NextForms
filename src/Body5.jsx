@@ -7,7 +7,7 @@ function Body5() {
     <div className="picp" style={{}}>
     <h2 style={{color:"black",margin:"6rem auto"}}>How It Works</h2>
     
-        <div className='hiw' style={{display:"flex",justifyContent:"center",alignItems:"center"}} >
+        <div className='hiw'  >
 
             <div className="pic imh1" style={{}}>
                 <img className='imgs' src={img1} alt="" />
