@@ -14,9 +14,9 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #root {
-    width: 90%;
+    width:90%;
   }
 }
 
