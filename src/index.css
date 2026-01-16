@@ -45,7 +45,11 @@ nav li:hover {
   margin: 0 auto;
   height: fit-content;
 }
+.stopqp{
+  display: flex;
 
+  align-items: center;
+}
 
 
 .but{
@@ -210,6 +214,7 @@ footer{
 }
 
 
+
  @media (max-width: 1200px) {
  img {
     max-width:100%;
@@ -253,7 +258,7 @@ footer{
  
  } 
 
-  @media (min-width:600px){
+  @media (max-width:600px){
 
 
     .hamburger {
