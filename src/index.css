@@ -216,11 +216,11 @@ footer{
 
 
 
- /* @media (min-width: 1200px) {
+  /* @media (min-width: 1200px) {
  img {
     max-width:100%;
   }
-}  */
+}   */
   @media (max-width: 960px) {
     img{
       width: 15rem;
@@ -270,7 +270,7 @@ footer{
   width: 90%;
  }
 
-  @media (max-width:600px){
+  /* @media (max-width:600px){
 
     body{
       width: 100%;
@@ -354,8 +354,8 @@ footer{
     
   }
   .picp{
-    /* margin: rem;
-    align-items: center; */
+    // margin: rem;
+    // align-items: center; 
     margin:0px auto;
     width: 90%;
     display: flex;
@@ -363,9 +363,9 @@ footer{
     align-items: center;
     flex-direction: column;
   }
-  /* .hiw{
-    width: 90%;
-  } */
+  // .hiw{
+   // width: 90%;
+  //} 
 
   .con{
     font-size: 16px;
@@ -434,12 +434,44 @@ footer{
     
   
   }
-  #contact{
-    width: 90%;
-    margin: 0px auto;
-    padding: 0rem;
-  }
- } 
+     #contact{
+      width: 90%;
+      margin: 0px auto;
+      padding: 0rem;
+    }
+  } */
+
+
+   @media (max-width:600px){
+     .hiw{
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.line{
+  width: 2px;
+  height: 40px;
+  background: #ccc;
+  margin: 0 auto;
+}
+
+.picp,
+#contact{
+  width: 100%;
+}
+
+.blue{
+  background: #0066FF;
+}
+
+.why{
+  width: 100%;
+  text-align: center;
+}
+   }
+
+
+
 
 
 
