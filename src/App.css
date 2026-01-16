@@ -16,7 +16,10 @@
 
 @media (max-width: 1000px) {
   #root {
-    width:90%;
+    width:100%;
   }
+}
+body{
+  width: 100%;
 }
 
