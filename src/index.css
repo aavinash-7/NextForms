@@ -283,9 +283,9 @@ footer{
   img{
     width: 100%;
     height: auto;
-    max-width: 20rem;
-    margin: 1rem;
-    margin-bottom: 2rem;
+    max-width: 18rem;
+    margin: 1rem auto;
+   
   }
 
     .nav {
@@ -295,7 +295,7 @@ footer{
     right: 1rem;
     background: white;
     flex-direction: column;
-    padding: 1rem 3.5rem;
+    padding: 1rem 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     
@@ -312,8 +312,8 @@ footer{
   }
 
   .h1{
-    font-size: 36px;
-     padding: 0rem  1rem;
+    font-size: 24px;
+    line-height: 1.3;
   }
   .h3{
     font-size: 16.5px;
@@ -326,7 +326,7 @@ footer{
   }
 
   .blue{
-    width: 80%;
+    width: 100%;
      max-width:none;
     padding: 1rem;
     display: flex;
@@ -363,9 +363,9 @@ footer{
     align-items: center;
     flex-direction: column;
   }
-  .hiw{
+  /* .hiw{
     width: 90%;
-  }
+  } */
 
   .con{
     font-size: 16px;
