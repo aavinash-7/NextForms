@@ -22,7 +22,9 @@ function Headerr() {
                   zIndex: 1000,}}>
 
 
-                    <div className="nfds"> <h1> <span style={{color:"#0066FF",fontSize:"32px"}}>NextForms</span> digitalServices</h1></div>
+                    <div className="nfds">
+                      <img src="" alt="" />
+                       <h1> <span style={{color:"#0066FF",fontSize:"32px"}}>NextGen</span> DigitalServices</h1></div>
      
           <div>
              <div className="hamburger" onClick={() => setOpen(!open)}>☰</div>

@@ -14,7 +14,7 @@ function Footer(){
                     <h3 className="ssl"><i class="fa-solid fa-circle-check"></i>100% Verified</h3>
                   </div>
 
-                  <p className="nf" style={{color:"#213160",}}> <b>NexForm never stores your Aadhaar or OTP. We are a processing service, not a data company.</b> </p>
+                  <p className="nf" style={{color:"#213160",}}> <b>NextGen never stores your Aadhaar or OTP. We are a processing service, not a data company.</b> </p>
             <p className="ai" style={{color:"#213160"}}>© 2024 Online Learning Platform. All rights reserved.</p>
 
 

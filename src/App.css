@@ -7,19 +7,25 @@
  padding: 0px  0rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #root {
     width: 100%;
     padding: 0.1rem;
   }
+  .stopqp{
+   display:flex;
+
+   flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 960px) {
   #root {
     width:100%;
   }
 }
 body{
-  width: 100%;
+  margin: 0 auto;
 }
 

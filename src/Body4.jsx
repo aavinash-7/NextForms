@@ -3,7 +3,7 @@ function Body4() {
     <div style={{}} className="comp">
 
       <h5 className="why" style={{color:"#AF47C2",fontSize:"1.5rem",marginTop:"6rem",fontFamily:"Montserrat"}}>
-        Why NexForm Is Better
+        Why NextGen Is Better
       </h5>
     
 
@@ -18,7 +18,7 @@ function Body4() {
            </div>
 
            <div style={{border:"1px solid #AF47C2",borderRadius:"20px",padding:"2rem"}}>
-            <h3 style={{borderBottom:"1px solid #AF47C2"}}>NextForm Digital Services</h3>
+            <h3 style={{borderBottom:"1px solid #AF47C2"}}>NextGen Digital Services</h3>
              <li><b>100% Remote</b>  <br /> Message from your sofa. </li>
              <li><b>Private</b> <br /> Encrypted WhatsApp handling.</li>
              <li><b>Expert Audit</b> <br /> Double-checked for rules.</li>
