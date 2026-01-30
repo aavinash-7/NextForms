@@ -8,7 +8,7 @@ return(
     padding:"8rem 0rem 0rem 0rem",
     display:"flex",flexDirection:"column",
     alignItems:"center",
-    justifyContent:"center",
+
     
     justifyContent:"space-between"}}>
       
