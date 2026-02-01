@@ -5,8 +5,9 @@ function Headerr() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header 
-       style={{backgroundColor: "white",
+    <header className="main-header">
+
+       {/* style={{backgroundColor: "white",
                   height: "6rem",
                   width: "100%",
                   display: "flex",
@@ -19,7 +20,7 @@ function Headerr() {
                   color:"#333333",
                   fontFamily:"Montserrat",
                   boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-                  zIndex: 1000,}}>
+                  zIndex: 1000,}} */}
 
 
                     <div className="nfds">
