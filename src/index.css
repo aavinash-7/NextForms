@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.disclaimer{
+  text-align: start;
+}
 /* *{
     margin: 0;
     padding: 0;
@@ -53,13 +56,27 @@ nav li:hover {
 
 
 .but{
+  
    margin-top: 2rem;
-  padding: 0.8rem 1rem;
+  padding: 0rem 1rem;
   font-size: 18px;
-  background-color: white;
+  background-color: green;
   color: black;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+.cta-btn{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 18px;
+  font-weight: 500;
+ 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -85,7 +102,7 @@ img{
   border-radius: 20px ;
 }
 .fa-whatsapp{
-  color:green;
+  color:white;
   font-size: 20px;
   margin-left: 5px;
 }
@@ -110,8 +127,19 @@ img{
    transition: background 0.3s ease;
 } */
 button:hover{
-   background: greenyellow;
+   background: white;
+    color: black;
+    .fa-whatsapp{
+      color: #001F3F;
+    }
+    .click{
+  color: #001F3F;
 }
+.fa-arrow-right{
+  color: #001F3F;
+}
+}
+
 
 a{
   text-decoration: none;
@@ -188,6 +216,7 @@ footer{
 }
 
 #contact{
+  padding: 1rem;
   color: black;
   margin: 1rem;
   margin-bottom: 0;
@@ -211,6 +240,7 @@ footer{
 .os {
   width: 70%;
   margin: 30px auto;
+  margin-top: 6rem;
   color: black;
 }
 .stopQ{
@@ -279,6 +309,45 @@ footer{
  body{
   width: 90%;
  }
+
+ .live-ups{
+
+  padding: 10px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 13.5px;
+  color: red;
+  animation: colorBlink 2s infinite;
+
+ }
+ .blink-color {
+  color: red; /* base color */
+  animation: colorBlink 0.001s infinite;
+}
+
+@keyframes colorBlink {
+  0%   { color: rgb(255, 55, 0); text-shadow: none; }
+  /* 50%  { color: yello; text-shadow: 0 0 10px; } */
+  100% { color: red; text-shadow: 0 0 2px; }
+}
+
+.popUp{
+  width: 40rem;
+  text-align: left;
+  color: black;
+  border: #88778D 1px solid;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.parentpop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 
   /* @media (max-width:600px){
 
@@ -480,6 +549,9 @@ h1{
 #contact{
   
 }
+.disclaimer{
+  font-size: 12px;
+}
 
 .blue{
   background: #0066FF;
@@ -565,7 +637,28 @@ align-items: center;
     flex-direction: column;
     align-items: center;
   }
+
+  .cta-btn{
+    font-size: 12px;
+  
+  }
+
+  .but{
+  padding: 5px;
+    border-radius: 10px;
+    width: 11rem;
+  }
+  .fa-arrow-right{
+    display: none;
+  }
+  .os{
+    margin-top: 1rem;
+  }
+  .popUp{
+    width: 20rem;
+  }
 }
+
 
    
 

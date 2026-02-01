@@ -32,11 +32,11 @@ return(
 
 </div>
        <button className='but' style={{ }}>  
-            <a href="https://wa.me/919502147922?text=Hello%20I%20want%20to%20start%20my%20application"
+            <a href="https://wa.me/919493398932?text=Hello!%20I%20want%20to%20start%20my%20application."
    target="_blank"
    class="cta-btn">
-    👉 Start on
-    <i class="fa-brands fa-whatsapp"></i> 
+    <i class="fa-solid fa-arrow-right" style={{fontSize:"1.5rem"}}></i> <p className='click'>CLICK HERE TO INITIATE THE APPLICATION  <i class="fa-brands fa-whatsapp"></i> </p> 
+   
 </a>
 </button>
     </div>

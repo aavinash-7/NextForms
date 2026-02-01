@@ -11,8 +11,8 @@ function Body5() {
 
             <div className="pic imh1" style={{}}>
                 <img className='imgs' src={img1} alt="" />
-                <div> <h4 className='con' style={{color:"black"}}>1.Connect</h4>
-                <p className='pcon' style={{color:"black"}}>send your details on whatsapp</p></div>
+                <div> <h4 className='con' style={{color:"black"}}>1. Connect</h4>
+                <p className='pcon' style={{color:"black"}}>Send your details on Whatsapp</p></div>
                
             </div>
 
@@ -20,7 +20,7 @@ function Body5() {
 
             <div className="pic imh2" style={{}}>
                 <img className='imgs' src={img2} alt="" />
-                <div><h4 className='con' style={{color:"black"}}>2.Verify</h4>
+                <div><h4 className='con' style={{color:"black"}}>2. Verify</h4>
                 <p className='pcon' style={{color:"black"}}>Review your draft for accuracy</p></div>
                 
             </div>
@@ -29,7 +29,7 @@ function Body5() {
 
             <div className="pic imh3" style={{}}>
                 <img className='imgs' src={img3} alt="" />
-                <div> <h4 className='con' style={{color:"black"}}>3.Success</h4>
+                <div> <h4 className='con' style={{color:"black"}}>3. Success</h4>
                 <p className='pcon' style={{color:"black"}}>Get your official soft receipt</p></div>
                 
             </div>

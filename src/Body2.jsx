@@ -2,9 +2,8 @@ function Body2() {
 
     return <div id="about"
     style={{color:"black",
-        margin:"8rem 0px 0px 0px",backgroundColor:"#F9F9F9",padding:"2rem"}}>
+        margin:"4rem 0px 0px 0px",backgroundColor:"#F9F9F9",padding:"2rem"}}>
             
-            <h5 style={{color:"#AF47C2",fontSize:"1.5rem",fontFamily:"Montserrat"}}>About</h5>
             <h2 style={{fontFamily:"Montserrat"}}>"Why Choose Us"</h2>
 
              <div className="wcu"

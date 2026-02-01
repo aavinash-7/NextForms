@@ -24,7 +24,7 @@ function Headerr() {
 
                     <div className="nfds">
                       <img src="" alt="" />
-                       <h1> <span style={{color:"#0066FF",fontSize:"32px"}}>NextGen</span> DigitalServices</h1></div>
+                       <h1> <span style={{color:"#0066FF",fontSize:"32px"}}>NexGen</span> Digital Services</h1></div>
      
           <div>
              <div className="hamburger" onClick={() => setOpen(!open)}>☰</div>

@@ -10,6 +10,7 @@ import Body4 from './Body4'
 import Body5 from './Body5'
 import Body6 from './Body6'
 import Footer from './Footer'
+import LiveUps from './LiveUps'
 
 
 function App() {
@@ -19,11 +20,14 @@ function App() {
     <>
      <Headerr />
      <Display1  />
+     <LiveUps />
+     <Body3 />
+     <Body5 />
      <Body2 />
      <Body4 />
-     <Body5 />
+     
      <Body6 />
-     <Body3 />
+     
      <Footer />
      
     </>
